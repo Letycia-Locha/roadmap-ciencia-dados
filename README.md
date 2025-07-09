@@ -166,4 +166,4 @@ O roadmap está organizado em 7 sessões, cada uma representando um bloco de est
    vercel --prod
    ```
    O arquivo `vercel.json` define que `app.py` será construído com `@vercel/python`
-   e mapeia todas as rotas para esse arquivo, evitando erros 404.
+   e mapeia todas as rotas para esse arquivo, evitando erros 404
