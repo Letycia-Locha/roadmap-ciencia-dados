@@ -32,7 +32,7 @@
 <!-- A tag <style> foi removida daqui. Os estilos agora estão em static/style.css -->
 
 
-### Bloco 1 – Análise de Dados
+<h3 id="bloco-1-análise-de-dados">Bloco 1 – Análise de Dados</h3>
 
 | Concluído | Título do Material             | Objetivo do Estudo                                      | Link                                                                 |
 |:---------:|:-------------------------------|:--------------------------------------------------------|:---------------------------------------------------------------------|
@@ -46,7 +46,7 @@
 
 ---
 
-### Bloco 2 – Programação
+<h3 id="bloco-2-programação">Bloco 2 – Programação</h3>
 
 | Concluído | Título do Material           | Objetivo do Estudo                                | Link                                                                 |
 |:---------:|:-----------------------------|:--------------------------------------------------|:---------------------------------------------------------------------|
@@ -58,7 +58,7 @@
 
 ---
 
-### Bloco 3 – EDA
+<h3 id="bloco-3-eda">Bloco 3 – EDA</h3>
 
 | Concluído | Título do Material                          | Objetivo do Estudo                                | Link                                                                 |
 |:---------:|:----------------------------------------------|:--------------------------------------------------|:---------------------------------------------------------------------|
@@ -72,7 +72,7 @@
 
 ---
 
-### Bloco 4 – Machine Learning
+<h3 id="bloco-4-machine-learning">Bloco 4 – Machine Learning</h3>
 
 | Concluído | Título do Material           | Objetivo do Estudo                                | Link                                                                 |
 |:---------:|:-----------------------------|:--------------------------------------------------|:---------------------------------------------------------------------|
@@ -82,7 +82,7 @@
 
 ---
 
-### Bloco 5 – Ferramentas Avançadas
+<h3 id="bloco-5-ferramentas-avançadas">Bloco 5 – Ferramentas Avançadas</h3>
 
 | Concluído | Título do Material           | Objetivo do Estudo                                | Link                                                                 |
 |:---------:|:-----------------------------|:--------------------------------------------------|:---------------------------------------------------------------------|
@@ -94,7 +94,7 @@
 
 ---
 
-### Bloco 6 – Deep Learning
+<h3 id="bloco-6-deep-learning">Bloco 6 – Deep Learning</h3>
 
 | Concluído | Título do Material           | Objetivo do Estudo                                | Link                                                                 |
 |:---------:|:-----------------------------|:--------------------------------------------------|:---------------------------------------------------------------------|
@@ -105,7 +105,7 @@
 
 ---
 
-### Bloco Final – Portfólio
+<h3 id="bloco-final-portfólio">Bloco Final – Portfólio</h3>
 
 | Concluído | Título do Material           | Objetivo do Estudo                                | Link                                                                 |
 |:---------:|:-----------------------------|:--------------------------------------------------|:---------------------------------------------------------------------|
@@ -114,11 +114,9 @@
 
 ---
 
-<div align="center">
-
-*Roadmap criado por Letycia Locha*
-*Me siga nas redes sociais @pythonicah*
-*2025*
-
-</div>
+<footer id="page-footer">
+conteúdo produzido por Letycia Locha<br>
+Me siga nas redes sociais @pythonicah<br>
+2025
+</footer>
 

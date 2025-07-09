@@ -45,6 +45,7 @@ nav {
   margin-left: calc(50% - 50vw);
   margin-top: 10px;
   margin-bottom: 20px; /* Space below nav */
+
 }
 
 /* Header and Navigation centering */
@@ -69,13 +70,17 @@ div[align="center"], .div-align-center { /* Targeting divs with align="center" a
 
 nav a {
   margin: 0 10px;
-  color: var(--color-5); /* Navigation link color */
+  color: black;
   text-decoration: none;
 }
 
 nav a:hover {
-  color: var(--color-6);
+  color: var(--color-1);
   text-decoration: underline;
+}
+
+nav a:visited {
+  color: black;
 }
 
 /* Table styling */
@@ -104,11 +109,12 @@ td input[type="checkbox"] {
 }
 
 /* Footer centering */
-.container > div[align="center"]:last-child,
-.container > .div-align-center:last-child {
+#page-footer {
   margin-top: 30px;
-  font-style: italic;
-  color: var(--color-3);
+  background-color: var(--color-1);
+  color: black;
+  text-align: center;
+  padding: 10px 0;
 }
 
 /* Progress Bar Styles */
