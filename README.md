@@ -49,7 +49,8 @@
 ---
 
 
-<h3 id="bloco-2-programação">Bloco 2 – Programação</h3>
+<h3 id="bloco-2-programacao">Bloco 2 – Programação</h3>
+
 
 | Concluído | Título do Material           | Objetivo do Estudo                                | Link                                                                 |
 |:---------:|:-----------------------------|:--------------------------------------------------|:---------------------------------------------------------------------|
@@ -86,7 +87,8 @@
 ---
 
 
-<h3 id="bloco-5-ferramentas-avançadas">Bloco 5 – Ferramentas Avançadas</h3>
+<h3 id="bloco-5-ferramentas-avancadas">Bloco 5 – Ferramentas Avançadas</h3>
+
 
 | Concluído | Título do Material           | Objetivo do Estudo                                | Link                                                                 |
 |:---------:|:-----------------------------|:--------------------------------------------------|:---------------------------------------------------------------------|
@@ -110,7 +112,7 @@
 ---
 
 
-<h3 id="bloco-final-portfólio">Bloco Final – Portfólio</h3>
+<h3 id="bloco-final-portfolio">Bloco Final – Portfólio</h3>
 
 
 | Concluído | Título do Material           | Objetivo do Estudo                                | Link                                                                 |
@@ -122,7 +124,7 @@
 
 <footer id="page-footer">
 conteúdo produzido por Letycia Locha<br>
-Me siga nas redes sociais @pythonicah<br>
+Me siga nas redes sociais **@pythonicah**<br>
 2025
 </footer>
 
