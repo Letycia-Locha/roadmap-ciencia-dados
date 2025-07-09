@@ -16,13 +16,13 @@
 <div align="center">
 
 <nav>
-  <a href="#bloco-1-análise-de-dados">Análise de Dados</a> |
-  <a href="#bloco-2-programação">Programação</a> |
+  <a href="#bloco-1-analise-de-dados">Análise de Dados</a> |
+  <a href="#bloco-2-programacao">Programação</a> |
   <a href="#bloco-3-eda">EDA</a> |
   <a href="#bloco-4-machine-learning">Machine Learning</a> |
-  <a href="#bloco-5-ferramentas-avançadas">Ferramentas Avançadas</a> |
+  <a href="#bloco-5-ferramentas-avancadas">Ferramentas Avançadas</a> |
   <a href="#bloco-6-deep-learning">Deep Learning</a> |
-  <a href="#bloco-final-portfólio">Portfólio</a>
+  <a href="#bloco-final-portfolio">Portfólio</a>
 </nav>
 
 </div>
@@ -32,7 +32,9 @@
 <!-- A tag <style> foi removida daqui. Os estilos agora estão em static/style.css -->
 
 
-<h3 id="bloco-1-análise-de-dados">Bloco 1 – Análise de Dados</h3>
+
+<h3 id="bloco-1-analise-de-dados">Bloco 1 – Análise de Dados</h3>
+
 
 | Concluído | Título do Material             | Objetivo do Estudo                                      | Link                                                                 |
 |:---------:|:-------------------------------|:--------------------------------------------------------|:---------------------------------------------------------------------|
@@ -45,6 +47,7 @@
 | [ ]       | Projeto SQL                    | Projeto prático com dados alimentícios                  | [Kaggle](https://www.kaggle.com/datasets/openfoodfacts/world-food-facts) |
 
 ---
+
 
 <h3 id="bloco-2-programação">Bloco 2 – Programação</h3>
 
@@ -82,6 +85,7 @@
 
 ---
 
+
 <h3 id="bloco-5-ferramentas-avançadas">Bloco 5 – Ferramentas Avançadas</h3>
 
 | Concluído | Título do Material           | Objetivo do Estudo                                | Link                                                                 |
@@ -105,7 +109,9 @@
 
 ---
 
+
 <h3 id="bloco-final-portfólio">Bloco Final – Portfólio</h3>
+
 
 | Concluído | Título do Material           | Objetivo do Estudo                                | Link                                                                 |
 |:---------:|:-----------------------------|:--------------------------------------------------|:---------------------------------------------------------------------|

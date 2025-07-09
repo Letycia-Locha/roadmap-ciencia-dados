@@ -36,6 +36,24 @@ h3 { font-size: 1.75em; color: var(--color-4); }
   text-align: left; /* Default text alignment */
 }
 
+
+/* General link styles */
+a {
+  color: var(--color-2);
+}
+
+a:visited {
+  color: #bbbbbb;
+}
+
+hr {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  border-color: var(--color-3);
+}
+
+=======
+
 /* Full width navigation */
 nav {
   display: flex;
