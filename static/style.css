@@ -1,12 +1,14 @@
 :root {
   /* Dark theme palette */
-  --color-1: #ff79c6;  /* pink highlight */
-  --color-2: #50fa7b;  /* green highlight */
+
+  --color-1: #D60072;  /* pink highlight */
+  --color-2: #66FF66;  /* green highlight */
   --color-3: #ffffff;  /* primary text color */
-  --color-4: #ff79c6;  /* secondary heading color */
-  --color-5: #ff79c6;  /* navigation/link color */
-  --color-6: #50fa7b;  /* hover/progress color */
-  --color-7: #50fa7b;
+  --color-4: #D60072;  /* secondary heading color */
+  --color-5: #D60072;  /* navigation/link color */
+  --color-6: #66FF66;  /* hover/progress color */
+  --color-7: #66FF66;
+
   --bg-color: #121212; /* page background */
   --font-family: 'Roboto Mono', monospace;
 }
@@ -34,6 +36,17 @@ h3 { font-size: 1.75em; color: var(--color-4); }
   text-align: left; /* Default text alignment */
 }
 
+/* Full width navigation */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-top: 10px;
+  margin-bottom: 20px; /* Space below nav */
+}
+
 /* Header and Navigation centering */
 div[align="center"], .div-align-center { /* Targeting divs with align="center" and a fallback class */
   text-align: center;
@@ -53,11 +66,6 @@ div[align="center"], .div-align-center { /* Targeting divs with align="center" a
   /* Style for subtitle if needed, e.g., font-size, color */
 }
 
-
-nav {
-  margin-top: 10px;
-  margin-bottom: 20px; /* Space below nav */
-}
 
 nav a {
   margin: 0 10px;
@@ -85,7 +93,7 @@ th, td {
 
 th {
   background-color: var(--color-2);
-  color: white;
+  color: black;
 }
 
 /* Style for checkboxes in tables */
@@ -120,7 +128,7 @@ td input[type="checkbox"] {
   border-radius: 3px;
   text-align: center;
   line-height: 25px;
-  color: white;
+  color: black;
   font-weight: bold;
   transition: width 0.5s ease-in-out;
 }
@@ -129,4 +137,17 @@ td input[type="checkbox"] {
 /* This is a precaution. Ideally, the <style> tag in README.md should be removed. */
 body > style {
   display: none;
+}
+
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav a {
+    margin: 5px 0;
+  }
+  table, th, td {
+    font-size: 14px;
+  }
 }
