@@ -23,6 +23,106 @@ h1 { font-size: 2.5em; color: var(--color-1); }
 h2 { font-size: 2em;   color: var(--color-2); }
 h3 { font-size: 1.75em; color: var(--color-4); }
 
+/* General Styles */
 .container {
-  margin: 20px;
+  max-width: 900px; /* Limit content width for better readability */
+  margin: 0 auto; /* Center the container */
+  padding: 20px;
+  text-align: left; /* Default text alignment */
+}
+
+/* Header and Navigation centering */
+div[align="center"], .div-align-center { /* Targeting divs with align="center" and a fallback class */
+  text-align: center;
+  margin-bottom: 20px; /* Add some space below centered divs */
+}
+
+/* Specifically target the main title and subtitle in the header */
+/* This assumes the HTML structure from README.md is preserved after Markdown conversion */
+/* If Markdown converter wraps <div align="center"> content in a <p>, this might need adjustment */
+.container > div[align="center"]:first-child h1,
+.container > .div-align-center:first-child h1 {
+  color: var(--color-1); /* Ensure main title color */
+}
+
+.container > div[align="center"]:first-child p strong, /* Targeting the subtitle "Pronta para iniciar..." */
+.container > .div-align-center:first-child p strong {
+  /* Style for subtitle if needed, e.g., font-size, color */
+}
+
+
+nav {
+  margin-top: 10px;
+  margin-bottom: 20px; /* Space below nav */
+}
+
+nav a {
+  margin: 0 10px;
+  color: var(--color-5); /* Navigation link color */
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--color-6);
+  text-decoration: underline;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid var(--color-3);
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: var(--color-2);
+  color: white;
+}
+
+/* Style for checkboxes in tables */
+td input[type="checkbox"] {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+/* Footer centering */
+.container > div[align="center"]:last-child,
+.container > .div-align-center:last-child {
+  margin-top: 30px;
+  font-style: italic;
+  color: var(--color-3);
+}
+
+/* Progress Bar Styles */
+#progress-container {
+  width: 100%;
+  background-color: #eee;
+  border-radius: 5px;
+  margin: 20px 0;
+  padding: 3px; /* To make the inner bar look inset */
+  box-sizing: border-box;
+}
+
+#progress-bar {
+  width: 0%; /* Initial width */
+  height: 25px;
+  background-color: var(--color-6);
+  border-radius: 3px;
+  text-align: center;
+  line-height: 25px;
+  color: white;
+  font-weight: bold;
+  transition: width 0.5s ease-in-out;
+}
+
+/* Ensure the style tag from README is not affecting layout if not removed */
+/* This is a precaution. Ideally, the <style> tag in README.md should be removed. */
+body > style {
+  display: none;
 }
