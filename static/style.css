@@ -1,5 +1,6 @@
 :root {
   /* Dark theme palette */
+
   --color-1: #D60072;  /* pink highlight */
   --color-2: #66FF66;  /* green highlight */
   --color-3: #ffffff;  /* primary text color */
@@ -7,6 +8,7 @@
   --color-5: #D60072;  /* navigation/link color */
   --color-6: #66FF66;  /* hover/progress color */
   --color-7: #66FF66;
+
   --bg-color: #121212; /* page background */
   --font-family: 'Roboto Mono', monospace;
 }
