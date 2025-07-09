@@ -29,30 +29,7 @@
 
 ---
 
-<style>
-:root {
-  --color-1: #42206D;
-  --color-2: #5A2471;
-  --color-3: #39265D;
-  --color-4: #660F56;
-  --color-5: #AB215B;
-  --color-6: #E64F6B;
-  --color-7: #F95A63;
-  --font-family: 'Roboto Mono', monospace;
-}
-
-body {
-  font-family: var(--font-family);
-  color: var(--color-3);
-  line-height: 1.5;
-}
-h1, h2, h3 {
-  font-weight: bold;
-}
-h1 { font-size: 2.5em; color: var(--color-1); }
-h2 { font-size: 2em;   color: var(--color-2); }
-h3 { font-size: 1.75em;color: var(--color-4); }
-</style>
+<!-- A tag <style> foi removida daqui. Os estilos agora estão em static/style.css -->
 
 ## Corpo do Roadmap
 

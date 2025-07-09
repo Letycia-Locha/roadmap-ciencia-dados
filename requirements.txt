@@ -1,2 +1,2 @@
-Flask
-markdown
+Flask==2.0.3
+Markdown==3.3.7
