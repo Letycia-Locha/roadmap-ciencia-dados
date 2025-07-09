@@ -1,17 +1,20 @@
 :root {
-  --color-1: #42206D;
-  --color-2: #5A2471;
-  --color-3: #39265D;
-  --color-4: #660F56;
-  --color-5: #AB215B;
-  --color-6: #E64F6B;
-  --color-7: #F95A63;
+  /* Dark theme palette */
+  --color-1: #ff79c6;  /* pink highlight */
+  --color-2: #50fa7b;  /* green highlight */
+  --color-3: #ffffff;  /* primary text color */
+  --color-4: #ff79c6;  /* secondary heading color */
+  --color-5: #ff79c6;  /* navigation/link color */
+  --color-6: #50fa7b;  /* hover/progress color */
+  --color-7: #50fa7b;
+  --bg-color: #121212; /* page background */
   --font-family: 'Roboto Mono', monospace;
 }
 
 body {
   font-family: var(--font-family);
   color: var(--color-3);
+  background-color: var(--bg-color);
   line-height: 1.5;
 }
 
@@ -89,6 +92,7 @@ th {
 td input[type="checkbox"] {
   margin-right: 5px;
   vertical-align: middle;
+  cursor: pointer;
 }
 
 /* Footer centering */
