@@ -32,7 +32,9 @@
 <!-- A tag <style> foi removida daqui. Os estilos agora estão em static/style.css -->
 
 
+
 <h3 id="bloco-1-analise-de-dados">Bloco 1 – Análise de Dados</h3>
+
 
 | Concluído | Título do Material             | Objetivo do Estudo                                      | Link                                                                 |
 |:---------:|:-------------------------------|:--------------------------------------------------------|:---------------------------------------------------------------------|
@@ -46,7 +48,9 @@
 
 ---
 
+
 <h3 id="bloco-2-programacao">Bloco 2 – Programação</h3>
+
 
 | Concluído | Título do Material           | Objetivo do Estudo                                | Link                                                                 |
 |:---------:|:-----------------------------|:--------------------------------------------------|:---------------------------------------------------------------------|
@@ -82,7 +86,9 @@
 
 ---
 
+
 <h3 id="bloco-5-ferramentas-avancadas">Bloco 5 – Ferramentas Avançadas</h3>
+
 
 | Concluído | Título do Material           | Objetivo do Estudo                                | Link                                                                 |
 |:---------:|:-----------------------------|:--------------------------------------------------|:---------------------------------------------------------------------|
@@ -105,7 +111,9 @@
 
 ---
 
+
 <h3 id="bloco-final-portfolio">Bloco Final – Portfólio</h3>
+
 
 | Concluído | Título do Material           | Objetivo do Estudo                                | Link                                                                 |
 |:---------:|:-----------------------------|:--------------------------------------------------|:---------------------------------------------------------------------|
@@ -116,7 +124,7 @@
 
 <footer id="page-footer">
 conteúdo produzido por Letycia Locha<br>
-Me siga nas redes sociais @pythonicah<br>
+Me siga nas redes sociais **@pythonicah**<br>
 2025
 </footer>
 

@@ -1,5 +1,6 @@
 :root {
   /* Dark theme palette */
+
   --color-1: #D60072;  /* pink highlight */
   --color-2: #66FF66;  /* green highlight */
   --color-3: #ffffff;  /* primary text color */
@@ -7,6 +8,7 @@
   --color-5: #D60072;  /* navigation/link color */
   --color-6: #66FF66;  /* hover/progress color */
   --color-7: #66FF66;
+
   --bg-color: #121212; /* page background */
   --font-family: 'Roboto Mono', monospace;
 }
@@ -34,13 +36,16 @@ h3 { font-size: 1.75em; color: var(--color-4); }
   text-align: left; /* Default text alignment */
 }
 
+
 /* General link styles */
 a {
   color: var(--color-2);
 }
 
 a:visited {
+
   color: #cccccc;
+
 }
 
 hr {
@@ -48,6 +53,7 @@ hr {
   margin-left: calc(50% - 50vw);
   border-color: var(--color-3);
 }
+
 
 /* Full width navigation */
 nav {
@@ -58,10 +64,13 @@ nav {
   margin-left: calc(50% - 50vw);
   margin-top: 10px;
   margin-bottom: 20px; /* Space below nav */
+
   background-color: var(--color-2);
-  color: black;
   border-top: 1px solid var(--color-3);
   border-bottom: 1px solid var(--color-3);
+
+
+
 }
 
 /* Header and Navigation centering */
