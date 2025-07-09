@@ -110,7 +110,7 @@ function loadProgress() {
 
 function initializeCheckboxes() {
   // Convert textual "[ ]" into real checkbox inputs and attach hours metadata
-  const rows = document.querySelectorAll('table tbody tr');
+  const rows = document.querySelectorAll('table tr');
   rows.forEach(row => {
     const cells = row.querySelectorAll('td');
     if (cells.length === 0) return;
