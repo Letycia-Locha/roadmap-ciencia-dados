@@ -52,6 +52,27 @@ const HOURS_PER_ITEM = {
   'Criando Portfólio': 4,
 };
 
+async function loadServerProgress() {
+  try {
+    const resp = await fetch('/progress');
+    if (!resp.ok) return null;
+    const data = await resp.json();
+    return data.progress;
+  } catch (e) {
+    return null;
+  }
+}
+
+function saveServerProgress(progressArray) {
+  fetch('/progress', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({ progress: progressArray })
+  });
+}
+
 function updateProgressBar() {
   const checkboxes = document.querySelectorAll('td input[type="checkbox"]'); // Target only checkboxes in table cells
   const progressBar = document.getElementById('progress-bar');
@@ -89,9 +110,15 @@ function updateProgressBar() {
 
 function saveProgress() {
   const checkboxes = document.querySelectorAll('td input[type="checkbox"]');
+  const progressArray = [];
   checkboxes.forEach((cb, idx) => {
     localStorage.setItem('cb_roadmap_' + idx, cb.checked); // Use a more specific key
+    progressArray.push(cb.checked);
   });
+
+  if (window.loggedIn) {
+    saveServerProgress(progressArray);
+  }
   updateProgressBar(); // Update bar on every save
 }
 
@@ -102,10 +129,21 @@ function loadProgress() {
     if (saved !== null) {
       cb.checked = saved === 'true';
     }
-    // Add event listener for changes to any checkbox
     cb.addEventListener('change', saveProgress);
   });
-  updateProgressBar(); // Initial update of the bar on load
+
+  if (window.loggedIn) {
+    loadServerProgress().then(serverProgress => {
+      if (serverProgress && serverProgress.length === checkboxes.length) {
+        checkboxes.forEach((cb, idx) => {
+          cb.checked = serverProgress[idx];
+        });
+      }
+      updateProgressBar();
+    });
+  } else {
+    updateProgressBar();
+  }
 }
 
 function initializeCheckboxes() {
