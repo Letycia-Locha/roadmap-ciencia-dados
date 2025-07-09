@@ -1,8 +1,8 @@
 <div align="center">
 
-# Roadmap Cientista de Dados
+<h1>Roadmap Cientista de Dados</h1>
 
-**Pronta para iniciar sua jornada de estudos?**
+<h3>Pronta para iniciar sua jornada de estudos?</h3>
 
 <!-- Barra de progresso que salva o progresso do usuário com autenticação -->
 <div id="progress-container">
