@@ -1,17 +1,20 @@
 :root {
-  --color-1: #42206D;
-  --color-2: #5A2471;
-  --color-3: #39265D;
-  --color-4: #660F56;
-  --color-5: #AB215B;
-  --color-6: #E64F6B;
-  --color-7: #F95A63;
+  /* Dark theme palette */
+  --color-1: #D60072;  /* pink highlight */
+  --color-2: #66FF66;  /* green highlight */
+  --color-3: #ffffff;  /* primary text color */
+  --color-4: #D60072;  /* secondary heading color */
+  --color-5: #D60072;  /* navigation/link color */
+  --color-6: #66FF66;  /* hover/progress color */
+  --color-7: #66FF66;
+  --bg-color: #121212; /* page background */
   --font-family: 'Roboto Mono', monospace;
 }
 
 body {
   font-family: var(--font-family);
   color: var(--color-3);
+  background-color: var(--bg-color);
   line-height: 1.5;
 }
 
@@ -29,6 +32,17 @@ h3 { font-size: 1.75em; color: var(--color-4); }
   margin: 0 auto; /* Center the container */
   padding: 20px;
   text-align: left; /* Default text alignment */
+}
+
+/* Full width navigation */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-top: 10px;
+  margin-bottom: 20px; /* Space below nav */
 }
 
 /* Header and Navigation centering */
@@ -50,11 +64,6 @@ div[align="center"], .div-align-center { /* Targeting divs with align="center" a
   /* Style for subtitle if needed, e.g., font-size, color */
 }
 
-
-nav {
-  margin-top: 10px;
-  margin-bottom: 20px; /* Space below nav */
-}
 
 nav a {
   margin: 0 10px;
@@ -82,13 +91,14 @@ th, td {
 
 th {
   background-color: var(--color-2);
-  color: white;
+  color: black;
 }
 
 /* Style for checkboxes in tables */
 td input[type="checkbox"] {
   margin-right: 5px;
   vertical-align: middle;
+  cursor: pointer;
 }
 
 /* Footer centering */
@@ -116,7 +126,7 @@ td input[type="checkbox"] {
   border-radius: 3px;
   text-align: center;
   line-height: 25px;
-  color: white;
+  color: black;
   font-weight: bold;
   transition: width 0.5s ease-in-out;
 }
@@ -125,4 +135,17 @@ td input[type="checkbox"] {
 /* This is a precaution. Ideally, the <style> tag in README.md should be removed. */
 body > style {
   display: none;
+}
+
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav a {
+    margin: 5px 0;
+  }
+  table, th, td {
+    font-size: 14px;
+  }
 }
