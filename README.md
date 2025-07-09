@@ -31,16 +31,6 @@
 
 <!-- A tag <style> foi removida daqui. Os estilos agora estão em static/style.css -->
 
-## Corpo do Roadmap
-
-O roadmap está organizado em 7 sessões, cada uma representando um bloco de estudos. Cada bloco contém uma tabela com 4 colunas:
-
-1. **Concluído**: checkbox para marcar progresso.  
-2. **Título do Material**  
-3. **Objetivo do Estudo**  
-4. **Link do Material**
-
----
 
 ### Bloco 1 – Análise de Dados
 
@@ -132,15 +122,3 @@ O roadmap está organizado em 7 sessões, cada uma representando um bloco de est
 
 </div>
 
-## Deploying to Vercel
-
-1. Instale as dependências listadas em `requirements.txt`.
-   ```bash
-   pip install -r requirements.txt
-   ```
-2. Faça login na Vercel e execute o deploy:
-   ```bash
-   vercel --prod
-   ```
-   O arquivo `vercel.json` define que `app.py` será construído com `@vercel/python`
-   e mapeia todas as rotas para esse arquivo, evitando erros 404
