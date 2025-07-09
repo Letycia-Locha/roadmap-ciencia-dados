@@ -149,8 +149,21 @@ O roadmap está organizado em 7 sessões, cada uma representando um bloco de est
 
 <div align="center">
 
-*Roadmap criado por Letycia Locha*  
-*Me siga nas redes sociais @pythonicah*  
+*Roadmap criado por Letycia Locha*
+*Me siga nas redes sociais @pythonicah*
 *2025*
 
 </div>
+
+## Deploying to Vercel
+
+1. Instale as dependências listadas em `requirements.txt`.
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. Faça login na Vercel e execute o deploy:
+   ```bash
+   vercel --prod
+   ```
+   O arquivo `vercel.json` define que `app.py` será construído com `@vercel/python`
+   e mapeia todas as rotas para esse arquivo, evitando erros 404.
