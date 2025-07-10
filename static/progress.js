@@ -1,55 +1,55 @@
 // Default hours per item if not specified
 const DEFAULT_HOURS_PER_ITEM = 1;
 
-// Estimated hours per material. These values are approximations used for
-// progress calculation. If a title is not listed here the default will be used.
+// Hours per material used to calculate progress. If a title is not listed here
+// the default will be used.
 const HOURS_PER_ITEM = {
   // Bloco 1 – Análise de Dados
-  'Estatística I': 10,
-  'Estatística II': 10,
-  'Governança de Dados': 8,
-  'Excel para Ciência de Dados': 8,
-  'SQL Básico': 6,
-  'Projeto Excel': 15,
-  'Projeto SQL': 15,
+  'Estatística I': 40,
+  'Estatística II': 20,
+  'Governança de Dados': 30,
+  'Excel para Ciência de Dados': 15,
+  'SQL Básico': 15,
+  'Projeto Excel': 25,
+  'Projeto SQL': 25,
 
   // Bloco 2 – Programação
-  'Python I': 4,
-  'Python II': 6,
-  'SQL Intermediário': 6,
-  'EDA em SQL': 6,
-  'Projeto ETL': 15,
+  'Python I': 5,
+  'Python II': 80,
+  'SQL Intermediário': 60,
+  'EDA em SQL': 60,
+  'Projeto ETL': 25,
 
   // Bloco 3 – EDA
-  'Data Analyst Track': 40,
-  'Associate Data Analyst': 40,
-  'Fundamentos DS': 20,
-  'Pandas': 6,
-  'Matplotlib': 4,
-  'Seaborn': 4,
-  'Projeto EDA': 15,
+  'Data Analyst Track': 80,
+  'Associate Data Analyst': 50,
+  'Fundamentos DS': 40,
+  'Pandas': 15,
+  'Matplotlib': 20,
+  'Seaborn': 20,
+  'Projeto EDA': 25,
 
   // Bloco 4 – Machine Learning
-  'Tópicos em ML': 10,
-  'Conceitos ML': 8,
-  'Projeto ML': 15,
+  'Tópicos em ML': 50,
+  'Conceitos ML': 50,
+  'Projeto ML': 25,
 
   // Bloco 5 – Ferramentas Avançadas
-  'Big Data Analytics': 8,
-  'Power BI Intro': 5,
-  'Apache Spark': 5,
-  'Curso Spark com PySpark': 20,
-  'Projeto Spark': 15,
+  'Big Data Analytics': 60,
+  'Power BI Intro': 15,
+  'Apache Spark': 10,
+  'Curso Spark com PySpark': 12,
+  'Projeto Spark': 25,
 
   // Bloco 6 – Deep Learning
-  'Deep Learning': 8,
-  'TensorFlow Docs': 6,
-  'TensorFlow Learn ML': 6,
-  'Projeto DL': 15,
+  'Deep Learning': 15,
+  'TensorFlow Docs': 15,
+  'TensorFlow Learn ML': 15,
+  'Projeto DL': 25,
 
   // Bloco Final – Portfólio
-  'Git & GitHub na Prática': 4,
-  'Criando Portfólio': 4,
+  'Git & GitHub na Prática': 25,
+  'Criando Portfólio': 2,
 };
 
 async function loadServerProgress() {
